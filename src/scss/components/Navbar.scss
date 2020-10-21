@@ -1,0 +1,19 @@
+.navbar {
+    .navbar-brand {
+        margin-left: 40px;
+    }
+
+    ul {
+        margin-right: 40px;
+    }
+
+    @media only screen and (max-width: 500px) {
+        .navbar-brand {
+            margin-left: 0px;
+        }
+
+        ul {
+            margin-right: 0px;
+        }
+    }
+}
